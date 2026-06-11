@@ -55,6 +55,14 @@ input {
     border-style: solid;
 }
 
+input:user-invalid {
+    border-color: red;
+}
+
+input:user-valid {
+    border-color: #0e5709;
+}
+
 .submit {
     display: flex;
     width: 100%;
