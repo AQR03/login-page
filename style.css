@@ -32,7 +32,7 @@ label {
 
 .login {
     display: flex;
-    gap: 15px;
+    gap: 80px;
     margin: 10px;
 }
 
@@ -51,8 +51,11 @@ form {
 }
 
 input {
-    border-radius: 5px;
+    border-radius: 6px;
     border-style: solid;
+    width: 20vw;
+    height: 5vh;
+    border-color: #dfdfdf;
 }
 
 input:user-invalid {
@@ -61,6 +64,10 @@ input:user-invalid {
 
 input:user-valid {
     border-color: #0e5709;
+}
+
+input:hover {
+    border-color: grey;
 }
 
 .submit {
